@@ -34,12 +34,16 @@ img{
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: url(img/Icon-TKP-Carga.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .lds-facebook {
   display: inline-block;
   position: relative;
@@ -705,6 +709,14 @@ foot {
 
 
 @media screen and (max-width: 500px){
+
+    .cards .card{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .menu-navegacion{
         width: 65vw;
     }
