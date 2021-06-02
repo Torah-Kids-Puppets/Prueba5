@@ -34,7 +34,7 @@ img{
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: url(img/Icon-TKP-Carga.jpg);
+  background: url(img/Icon-TKP-Carga.jpg), #ffffff;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
